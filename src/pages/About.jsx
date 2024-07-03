@@ -1,3 +1,6 @@
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import "@fortawesome/fontawesome-svg-core/styles.css";
+import { faDownload } from "@fortawesome/free-solid-svg-icons";
 import about from "../images/myabout.png";
 const About = () => {
   return (
@@ -24,7 +27,8 @@ const About = () => {
             download="CV-SM-RAHID-HAQUE.pdf"
             className="btn btn-primary"
           >
-            Download Resume
+            Download Resume{" "}
+            <FontAwesomeIcon className="px-2" icon={faDownload} />
           </a>
         </div>
       </div>
