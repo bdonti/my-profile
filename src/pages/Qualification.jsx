@@ -3,7 +3,7 @@ import { faBookReader, faLaptopCode } from "@fortawesome/free-solid-svg-icons";
 
 const Qualification = () => {
   return (
-    <div className="text-center mt-5 font-bold grid grid-cols-1 lg:grid-cols-2 place-items-center">
+    <div className="text-center mt-20 font-bold grid grid-cols-1 lg:grid-cols-2 place-items-center">
       <div>
         <h2 className="text-2xl" style={{ textDecorationLine: "underline" }}>
           <FontAwesomeIcon className="px-2" icon={faBookReader} /> Education
@@ -13,7 +13,7 @@ const Qualification = () => {
             American International University Bangladesh (AIUB)
           </li>
           <li className="step step-primary">
-            Bachelor's Degree in Computer Science
+            Bachelors Degree in Computer Science
           </li>
           <li className="step step-primary">
             Year of Passing : January 2017 to October 2021

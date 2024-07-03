@@ -18,7 +18,7 @@ const About = () => {
           <p className="py-6 max-w-xs">
             I have graduated from AIUB. I am looking for an web development
             position. I am skilled in javascript, HTML5, CSS3. I am very
-            passionate about making web applications. I want to make people's
+            passionate about making web applications. I want to make peoples
             life easier by making useful applications which will benefit the
             society.
           </p>
